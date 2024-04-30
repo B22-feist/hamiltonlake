@@ -1,0 +1,120 @@
+/* css code for header*/
+header {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+/* gives nav bar postion and colour*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+}
+/* give's nav bar text colour and formats it*/
+.navbar ul a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    
+}
+/* when links in nav bar hovered over changes colur*/
+.navbar a:hover{
+    background-color: blue;
+}
+
+/* make's the nav bar horzontal not verticle*/
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* changes logo to fit page and display it inline with h1 tag*/
+.imgLogo {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+}
+
+/* keeps logo in top left corner*/
+.imgDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* keeps h1 tag in the center*/
+.headerP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* make Iframe window larger ot fit screen*/
+.iframe {
+    height: 1000px;
+    width: auto;
+}
+
+/* centers all H2 elements*/
+H2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+/* class that justifies everything*/
+.Info{
+    text-align: center;
+}
+
+/*makes the ciationns small*/
+
+cite{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+/* aligns anchors to the center*/
+A {
+    text-align: center;
+}
+
+/*sets the paragraphs to be inside the middle of the page*/
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: large;
+}
+
+/* sets the background to being green*/
+body{
+    background-color: green;
+}
+
+/* sets all article to center*/
+article{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* makes the paragraphs white and have the text aligned to the center and sets font to arial*/
+p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+/* used for hero images to make them fit the screen*/
+.hero{
+    width: 1850px;
+    height: auto;
+}
