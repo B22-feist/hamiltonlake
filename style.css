@@ -24,7 +24,7 @@ header {
 }
 /* when links in nav bar hovered over changes colur*/
 .navbar a:hover{
-    background-color: blue;
+    background-color: white;
 }
 
 /* make's the nav bar horzontal not verticle*/
