@@ -14,7 +14,7 @@ header {
 }
 /* give's nav bar text colour and formats it*/
 .navbar ul a{
-    color:rgb(255, 255, 255);
+    color: blue;
     text-decoration: none;
     padding: 15px;
     display: block;
